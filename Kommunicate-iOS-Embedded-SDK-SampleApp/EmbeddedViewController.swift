@@ -29,15 +29,16 @@ class EmbeddedViewController: UIViewController {
                                            y: view.bounds.size.height / 2)
         view.addSubview(activityIndicator)
         view.bringSubviewToFront(activityIndicator)
-        
-        Kommunicate.createAndEmbedConversation(from: self, rootView: rootView) { error in
-            self.activityIndicator.stopAnimating()
-            self.view.isUserInteractionEnabled = true
-            if error != nil {
-                print("Error while launching")
-            }
-            
-        }
+//
+//        Kommunicate.createAndEmbedConversation(from: self, rootView: rootView) { error in
+//            self.activityIndicator.stopAnimating()
+//            self.view.isUserInteractionEnabled = true
+//            if error != nil {
+//                print("Error while launching")
+//            }
+//
+//        }
+        Kommunicate.embedConversationList(from: self, on: rootView)
     }
 
     @IBOutlet weak var rootView: UIView!

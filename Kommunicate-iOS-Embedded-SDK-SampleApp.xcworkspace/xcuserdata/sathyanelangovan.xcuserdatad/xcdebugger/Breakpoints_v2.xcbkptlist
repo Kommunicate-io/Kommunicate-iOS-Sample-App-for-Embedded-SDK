@@ -1,38 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
-   uuid = "5948FBE5-E69F-40D8-9A71-AE73C73D8C6A"
+   uuid = "1CF488A2-9741-4BA4-9ACD-337A6BFAF8D5"
    type = "0"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A0DC8294-365A-45BA-A116-F990C2701105"
+            uuid = "AB56272F-7736-4D4B-8F95-34932353707A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Kommunicate-iOS-Embedded-SDK-SampleApp/AppDelegate.swift"
+            filePath = "Pods/KommunicateCore-iOS-SDK/Sources/push/ALPushAssist.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-isOurViewOnTop"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F881BBDE-DA6B-4EAF-BF62-4864E5B1607B"
+            uuid = "368F90B2-E3BF-424E-AF08-7A4CF0F52A58"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/Kommunicate/Sources/Kommunicate/Classes/Extensions/KMPushNotificationService+Extension.swift"
-            startingColumnNumber = "13"
-            endingColumnNumber = "36"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "processPushNotification(_:appState:)"
+            filePath = "Pods/KommunicateCore-iOS-SDK/Sources/push/ALPushAssist.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-isOurViewOnTop"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4522A1B-4BFC-4523-938E-8CADA99FDC2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/KommunicateCore-iOS-SDK/Sources/push/ALPushAssist.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-isOurViewOnTop"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
